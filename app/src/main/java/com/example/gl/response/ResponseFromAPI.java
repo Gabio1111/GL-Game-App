@@ -31,7 +31,7 @@ import retrofit2.Response;
 public class ResponseFromAPI
 {
 
-    private final String API_KEY = "9dff30a883ca4236af73ad04b0ca088f";
+    private final String API_KEY = "API KEY";
 
     private List<GameModel> m_ListGameModel;
     private List<GameModel> m_ListTopGameModel;
