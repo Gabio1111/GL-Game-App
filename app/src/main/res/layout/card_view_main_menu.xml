@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="175dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view_main_menu"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp">
+
+
+        <ImageView
+            android:id="@+id/image_view_profile_game"
+            android:layout_width="390dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="35dp"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/text_view_name_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_copyright"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="240dp"
+            android:ems="15"
+            android:gravity="right"
+            android:text="@string/copyright_rawg_api"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:layout_width="4dp"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="1dp"
+        android:background="@color/white" />
+
+
+</FrameLayout>
